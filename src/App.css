@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body{
+  background:linear-gradient(#15233d,#2D3138) ;
+  color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#gece{
+  color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#moon{
+  width: 30px;
+  color: white;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dark{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Brygada 1918', serif;
+  background:linear-gradient(#15233d) ;
+}
+.light{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: darkblue;
+  font-family: 'Brygada 1918', serif;
+  background:white;
+}
+#gece{
+  cursor: pointer;
+}
+.mid{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 70px;
+}
+h5{
+  margin-top: 0.5px;
+}
+p{
+  margin-top: 0.5px;
+}
+
+.butonlar img{
+  width: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+.butonlar:hover{
+  cursor: pointer;
+}
+.butonlar{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  margin-top: 20px;
+ 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ahmet{
+  border-radius: 50%;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 15px;
+  border: 5px solid ;
 }
