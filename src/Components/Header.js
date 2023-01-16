@@ -21,7 +21,7 @@ function Header() {
                 <img id='moon' 
                  src={sun} 
                  alt='buton'
-                 onClick={() => setTheme(!theme)}
+                 onClick={() => setTheme(!prevTheme)}
             
             /></ul> 
             </div>
