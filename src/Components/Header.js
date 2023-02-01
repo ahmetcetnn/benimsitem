@@ -9,8 +9,10 @@ import moon from '../images/moon.png'
 function Header() {
      const [theme, setTheme]=useState(false)
      
+     
         
      
+    
   return (
     <div>
       <div className={theme ? "light"  : "dark" }>
@@ -21,7 +23,8 @@ function Header() {
                 <img id='moon' 
                  src={sun} 
                  alt='buton'
-                 onClick={() => setTheme(!prevTheme)}
+                 onClick={() => setTheme(!theme)
+                 }
             
             /></ul> 
             </div>
