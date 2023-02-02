@@ -7,7 +7,7 @@ body{
 }
 #moon{
   width: 30px;
-  color: white;
+  color: inherit;
   
 }
 .dark{
